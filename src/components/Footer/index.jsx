@@ -1,9 +1,9 @@
-import "./Footer.css";
+import "./Footer.scss";
 
 export function Footer() {
     return (
-        <main>
-            <h1>Footer</h1>
-        </main>
+        <footer>
+            <p>Footer</p>
+        </footer>
     )
 }

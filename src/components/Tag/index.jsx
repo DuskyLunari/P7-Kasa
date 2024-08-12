@@ -1,9 +1,9 @@
-import "./Tag.css";
+import "./Tag.scss";
 
-export function Tag() {
+export function Tag({ innerText }) {
     return (
-        <main>
-            <h1>Tag</h1>
-        </main>
+        <button>
+            {innerText}
+        </button>
     )
 }
