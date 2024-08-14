@@ -16,8 +16,6 @@ export function Home() {
             <Thumb></Thumb>
             <Thumb></Thumb>
             <Thumb></Thumb>
-            <Tag innerText="plop"></Tag>
-            <Tag innerText="plop2"></Tag>
             <Footer></Footer>
         </main>
     )
