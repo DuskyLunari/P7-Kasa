@@ -1,4 +1,4 @@
-import "./Thumb.css";
+import "./Thumb.scss";
 
 export function Thumb() {
     return (

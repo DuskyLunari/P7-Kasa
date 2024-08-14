@@ -1,13 +1,21 @@
 import { Header } from "../../components/Header";
+import { Banner } from "../../components/Banner";
+import { Thumb } from "../../components/Thumb";
 import { Footer } from "../../components/Footer";
-import { Tag } from "../../components/Tag";
+
 import "./Home.scss";
 
 export function Home() {
     return (
         <main>
             <Header></Header>
-            <h1>Home</h1>
+            <Banner></Banner>
+            <Thumb></Thumb>
+            <Thumb></Thumb>
+            <Thumb></Thumb>
+            <Thumb></Thumb>
+            <Thumb></Thumb>
+            <Thumb></Thumb>
             <Tag innerText="plop"></Tag>
             <Tag innerText="plop2"></Tag>
             <Footer></Footer>

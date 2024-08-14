@@ -1,4 +1,4 @@
-import "./Collapse.css";
+import "./Collapse.scss";
 
 export function Collapse() {
     return (
