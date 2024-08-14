@@ -1,9 +1,18 @@
 import "./Header.scss";
+import logo from "/logo.svg";
 
 export function Header() {
-    return (
-        <main>
-            <h1>Header</h1>
-        </main>
-    )
+  return (
+    <header className="header">
+        <figure className="header__logo">
+            <img src={ logo } alt="Logo de Kasa" />
+        </figure>
+        <nav className="header__nav">
+          <ul>
+            <li>Accueil</li>
+            <li>A propos</li>
+          </ul>
+        </nav>
+    </header>
+  );
 }

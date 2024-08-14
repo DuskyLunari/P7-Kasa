@@ -1,1 +1,33 @@
-/*# sourceMappingURL=Header.css.map */
+.header {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5%;
+}
+.header__logo {
+  width: 210px;
+  height: 68px;
+}
+.header__nav {
+  display: flex;
+  align-items: flex-start;
+}
+.header__nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.header__nav li {
+  width: 136px;
+  color: #000;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+}
+.header__nav li:active {
+  text-decoration-line: underline;
+}/*# sourceMappingURL=Header.css.map */
