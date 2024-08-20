@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"Score.css"}
+{"version":3,"sources":["../../src/components/Score/Score.scss","Score.css"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,mBAAA;ACCJ;ADCI;EACE,eAAA;EACA,iBAAA;EACA,2BAAA;ACCN;ADEI;EACI,cAAA;ACAR;ADGI;EACI,cAAA;ACDR","file":"Score.css"}

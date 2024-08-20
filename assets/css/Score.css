@@ -1,1 +1,15 @@
-/*# sourceMappingURL=Score.css.map */
+.score {
+  display: flex;
+  align-items: center;
+}
+.score .fa-star {
+  font-size: 24px;
+  margin-right: 2px;
+  transition: color 0.2s ease;
+}
+.score .fa-star.filled {
+  color: #FF6060;
+}
+.score .fa-star.regular {
+  color: #E3E3E3;
+}/*# sourceMappingURL=Score.css.map */

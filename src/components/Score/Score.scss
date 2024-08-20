@@ -1,0 +1,19 @@
+.score {
+    display: flex;
+    align-items: center;
+  
+    .fa-star {
+      font-size: 24px;
+      margin-right: 2px;
+      transition: color 0.2s ease;
+    }
+  
+    .fa-star.filled {
+        color:#FF6060; 
+    }
+  
+    .fa-star.regular {
+        color:#E3E3E3;
+    }
+  }
+  
