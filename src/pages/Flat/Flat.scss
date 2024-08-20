@@ -1,0 +1,81 @@
+.flat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .logement-additional-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        .logement-info {
+            flex: 1;
+            margin-right: 20px;
+            &__title {
+                display: flex;
+                justify-content: flex-start;
+                color: #FF6060;
+                font-size: 36px;
+                font-weight: 500;
+                margin-top: 30px;
+                margin-bottom: 5px;
+            }
+            &__location {
+                display: flex;
+                justify-content: flex-start;
+                color: #000;
+                font-size: 18px;
+                font-weight: 500;
+                padding-bottom: 24px;
+            }
+            .tags {
+                display: flex;
+                gap: 10px;
+            }
+        }
+        .additional-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-top: 30px;
+            margin-bottom: 5px;
+            .host-info {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                text-align: right;
+                margin-bottom: 27px;
+
+                color: #FF6060;
+                font-size: 18px;
+                font-weight: 500;
+                .host-name-container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    margin-right: 10px;
+                }
+                .host-picture {
+                    width: 64px;
+                    height: 64px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    .collapses-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 76px;
+        width: 100%;
+        margin-top: 24px;
+        border-radius: 10px;
+        .collapse {
+            flex: 1;
+        }
+    }
+}
