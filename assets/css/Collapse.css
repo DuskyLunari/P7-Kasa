@@ -1,1 +1,49 @@
-/*# sourceMappingURL=Collapse.css.map */
+.collapse-container .collapse .collapse__toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #FF6060;
+  color: #fff;
+  border-radius: 5px;
+}
+.collapse-container .collapse .collapse__icon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.collapse-container .collapse .collapse__toggle.closed .collapse__icon {
+  transform: rotate(0deg);
+}
+.collapse-container .collapse .collapse__toggle.open .collapse__icon {
+  transform: rotate(180deg);
+}
+.collapse-container .collapse .collapse__content {
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  max-height: 0;
+  opacity: 0;
+  background-color: rgba(246, 246, 246, 0.45);
+  padding: 0 10px;
+  border-radius: 4px;
+}
+.collapse-container .collapse .collapse__content.open {
+  max-height: 500px;
+  opacity: 1;
+  padding: 10px;
+}
+.collapse-container .collapse .collapse__content.closed {
+  max-height: 0;
+  opacity: 0;
+  padding: 0;
+}/*# sourceMappingURL=Collapse.css.map */
