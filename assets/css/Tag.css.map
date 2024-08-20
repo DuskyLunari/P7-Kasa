@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"Tag.css"}
+{"version":3,"sources":["../../src/components/Tag/Tag.scss","Tag.css"],"names":[],"mappings":"AAAA;EACI,mBAAA;EACA,mBAAA;EACA,WAAA;EACA,eAAA;EACA,gBAAA;EACA,kBAAA;EACA,YAAA;EACA,0BAAA;ACCJ","file":"Tag.css"}
