@@ -1,3 +1,9 @@
+.collapse-container {
+  width: 100%;
+}
+.collapse-container .collapse {
+  width: 100%;
+}
 .collapse-container .collapse .collapse__toggle {
   display: flex;
   justify-content: space-between;
