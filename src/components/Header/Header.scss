@@ -34,3 +34,13 @@
         }
     }
 }
+
+.header__nav a {
+    text-decoration: none;
+    color: unset;
+}
+
+.header__nav a.active {
+    text-decoration: underline;
+    color: unset;
+}
