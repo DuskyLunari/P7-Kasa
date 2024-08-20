@@ -30,7 +30,7 @@ export function Home() {
                 <section className="thumbs">
                     {logements.length > 0 ? (
                         logements.map((logement) => (
-                            <Link key={logement.id} to={"/logement" + logement.id}>
+                            <Link key={logement.id} to={`/logement/${logement.id}`}>
                                 <Thumb title={logement.title} cover={logement.cover} />
                             </Link>
                         ))
