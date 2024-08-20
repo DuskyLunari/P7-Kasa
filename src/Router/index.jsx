@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Home } from "../pages/Home";
-import { Flat } from "../pages/Flat";
+import { Logement } from "../pages/Flat";
 import { About } from "../pages/About";
 import { Error } from "../pages/Error";
 
@@ -14,8 +14,8 @@ const router = createBrowserRouter( [
         element: <About />
     },
     {
-        path:"/logement/:flatId",
-        element: <Flat />
+        path:"/logement/:logementId",
+        element: <Logement />
     },
     {
         path:"*",
