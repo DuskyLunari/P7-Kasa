@@ -3,12 +3,16 @@ import { Banner } from "../../components/Banner";
 import { Collapse } from "../../components/Collapse";
 
 import "./About.scss";
+import customBannerImg from "/banner-propos.png";
 
 export function About() {
     return (
         <Layout>
             <main>
-                <Banner></Banner>
+                <Banner 
+                bannerImg={customBannerImg}
+                text=""
+                />
                 <div className="Collapse-container">
                     <Collapse title="Fiabilité">
                         <p>Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.</p>

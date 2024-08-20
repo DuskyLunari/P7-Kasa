@@ -1,13 +1,20 @@
-import "./Banner.scss";
-import BannerImg from "/banner-home.png";
+import React from 'react';
+import './Banner.scss';
 
-export function Banner({bannerImg = BannerImg}) {
+export function Banner({ bannerImg, text }) {
     return (
         <main>
-            <div className="banner-home">
-                <img className="banner-home__img"src={bannerImg} alt="Bannière"></img>
-                <p className="banner-home__text">Chez vous, partout et ailleurs</p>
+            <div className="banner">
+                {text && <div className="banner__overlay"></div>}
+                <img 
+                    className="banner__img" 
+                    src={bannerImg} 
+                    alt="Banner"
+                />
+                {text && (
+                    <p className="banner__text">{text}</p>
+                )}
             </div>
         </main>
-    )
+    );
 }

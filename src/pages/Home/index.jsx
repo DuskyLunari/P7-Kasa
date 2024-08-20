@@ -5,9 +5,9 @@ import { Banner } from "../../components/Banner";
 import { Thumb } from "../../components/Thumb";
 
 import "./Home.scss";
+import customBannerImg from "/banner-home.png";
 
 export function Home() {
-
     const [logements, setLogements] = useState([]);
 
     useEffect(() => {
@@ -23,7 +23,10 @@ export function Home() {
     return (
         <Layout>
             <main>
-                <Banner />
+                <Banner 
+                    bannerImg={customBannerImg} 
+                    text="Chez vous, partout et ailleurs"
+                />
                 <section className="thumbs">
                     {logements.length > 0 ? (
                         logements.map((logement) => (
