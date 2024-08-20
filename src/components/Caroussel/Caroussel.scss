@@ -21,13 +21,13 @@
         transform: translateY(-50%);
         color: #fff;
         border: none;
-        background: transparent; /* Ensure the background is transparent */
+        background: transparent;
         cursor: pointer;
         font-size: 79px;
         z-index: 2;
-        padding: 0; /* Remove any default padding */
-        margin: 0; /* Remove any default margin */
-        outline: none; /* Remove default outline */
+        padding: 0;
+        margin: 0;
+        outline: none;
         &--left {
             left: 10px;
         }
