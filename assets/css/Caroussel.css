@@ -1,1 +1,51 @@
-/*# sourceMappingURL=Caroussel.css.map */
+.caroussel {
+  position: relative;
+  width: 100%;
+  height: 415px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.caroussel__images {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+.caroussel__images img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.caroussel__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  border: none;
+  background: transparent; /* Ensure the background is transparent */
+  cursor: pointer;
+  font-size: 79px;
+  z-index: 2;
+  padding: 0; /* Remove any default padding */
+  margin: 0; /* Remove any default margin */
+  outline: none; /* Remove default outline */
+}
+.caroussel__arrow--left {
+  left: 10px;
+}
+.caroussel__arrow--right {
+  right: 10px;
+}
+.caroussel__count {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 142.6%;
+}/*# sourceMappingURL=Caroussel.css.map */
