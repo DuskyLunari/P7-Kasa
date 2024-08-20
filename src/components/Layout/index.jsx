@@ -6,8 +6,10 @@ export function Layout ({ children }) {
 
     return(
         <>
+        <div className="main-container">
         <Header />
             {children}
+        </div>
         <Footer />
         </>
     );
