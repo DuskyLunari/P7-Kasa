@@ -1,15 +1,13 @@
-import { Header } from "../../components/Header";
-
-import { Footer } from "../../components/Footer";
+import { Layout } from "../../components/Layout";
 
 import "./Error.scss";
 
 export function Error() {
     return (
-        <main>
-            <Header></Header>
-            <h1>Error</h1>
-            <Footer></Footer>
-        </main>
+        <Layout>
+            <main>
+                <h1>Error</h1>
+            </main>
+        </Layout>
     )
 }

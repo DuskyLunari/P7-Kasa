@@ -1,20 +1,22 @@
-import { Header } from "../../components/Header";
+import { Layout } from "../../components/Layout";
 import { Tag } from "../../components/Tag";
 import { Score } from "../../components/Score";
 import { Collapse } from "../../components/Collapse";
-import { Footer } from "../../components/Footer";
 
 import "./Flat.scss";
+import { useParams } from "react-router-dom";
 
 export function Flat() {
+    const { flatId } = useParams();
     return (
-        <main>
-            <Header></Header>
-            <Collapse></Collapse>
-            <Score></Score>
-            <Tag innerText="plop"></Tag>
-            <Tag innerText="plop2"></Tag>
-            <Footer></Footer>
-        </main>
+        <Layout>
+            <main>
+                <h1> Logement { flatId }</h1>
+                <Collapse></Collapse>
+                <Score></Score>
+                <Tag innerText="plop"></Tag>
+                <Tag innerText="plop2"></Tag>
+            </main>
+        </Layout>
     )
 }
