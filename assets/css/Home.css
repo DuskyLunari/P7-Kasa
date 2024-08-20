@@ -1,1 +1,13 @@
-/*# sourceMappingURL=Home.css.map */
+.thumbs {
+  border-radius: 25px;
+  background-color: #F6F6F6;
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+}/*# sourceMappingURL=Home.css.map */

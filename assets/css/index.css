@@ -1,6 +1,16 @@
-html, body, #root {
-  margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+* {
   padding: 0;
-  height: 100%;
-  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+li {
+  list-style-type: none;
 }/*# sourceMappingURL=index.css.map */

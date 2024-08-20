@@ -1,1 +1,24 @@
-/*# sourceMappingURL=Footer.css.map */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding-top: 66px;
+  padding-bottom: 29px;
+  background-color: black;
+  flex-direction: column;
+}
+.footer__logo {
+  color: #ffffff;
+  margin-bottom: 28px;
+  width: 122px;
+  height: 40px;
+}
+.footer__copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  width: 100%;
+}/*# sourceMappingURL=Footer.css.map */
