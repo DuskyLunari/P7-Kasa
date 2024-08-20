@@ -2,12 +2,12 @@ import { Header } from "../Header";
 import { Children } from "react";
 import { Footer } from "../Footer";
 
-export function Layout ({ Children }) {
+export function Layout ({ children }) {
 
     return(
         <>
         <Header />
-            {Children}
+            {children}
         <Footer />
         </>
     );
