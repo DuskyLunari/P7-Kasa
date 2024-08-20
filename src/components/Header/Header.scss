@@ -1,37 +1,35 @@
-
 .header {
     box-sizing: border-box;
-    max-width: 100%;
-    width: calc(100% - 10%); 
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 45px;
     padding-bottom: 50px;
-    margin-inline: 5%;
     &__logo {
         width: 210px;
         height: 68px;
     }
     &__nav {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end; 
         align-items: center;
         ul {
             list-style-type: none;
             display: flex;
             flex-direction: row;
             gap: 15px;
+            margin: 0;
         }
         li {
             width: 136px;
             color: #000;
             text-align: right;
-            font-family: Montserrat;
+            font-family: Montserrat, sans-serif;
             font-size: 24px;
             font-weight: 500;
         }
-        li:active {
+        li:active, li:hover {
             text-decoration-line: underline;
         }
     }
