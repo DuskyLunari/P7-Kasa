@@ -1,1 +1,27 @@
-/*# sourceMappingURL=Error.css.map */
+.Error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 139px;
+  margin-top: 139px;
+  margin-bottom: 139px;
+}
+.Error-container__title {
+  color: #FF6060;
+  text-align: center;
+  height: 263px;
+  font-size: 288px;
+  font-weight: 700;
+}
+.Error-container__text {
+  color: #FF6060;
+  font-size: 36px;
+  font-weight: 500;
+}
+.Error-container__link {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration-line: underline;
+}/*# sourceMappingURL=Error.css.map */
