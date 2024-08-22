@@ -1,4 +1,3 @@
-import React from "react";
 import "./Thumb.scss";
 
 export function Thumb({ cover, title }) {

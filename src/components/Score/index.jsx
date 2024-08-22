@@ -1,4 +1,3 @@
-import React from 'react';
 import './Score.scss';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
