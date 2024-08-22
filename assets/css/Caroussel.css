@@ -8,12 +8,12 @@
 }
 .caroussel__images {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 25px;
 }
 .caroussel__images img {
   width: 100%;
-  height: auto;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
