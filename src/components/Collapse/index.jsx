@@ -9,7 +9,7 @@ export function Collapse({ title, children }) {
     };
 
     return (
-        <div className="collapse-container">
+        <header className="collapse-container">
             <div className="collapse">
                 <button
                     className={`collapse__toggle ${isOpen ? 'open' : 'closed'}`}
@@ -24,6 +24,6 @@ export function Collapse({ title, children }) {
                     {children}
                 </div>
             </div>
-        </div>
+        </header>
     );
 }
