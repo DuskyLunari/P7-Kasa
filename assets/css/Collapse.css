@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   border: none;
-  padding: 10px;
+  padding: 10px 15px 10px 15px;
   cursor: pointer;
   width: 100%;
   text-align: left;
@@ -37,6 +37,8 @@
 .collapse-container .collapse .collapse__content {
   overflow: hidden;
   transition: max-height 0.3s ease-out;
+  font-size: 18px;
+  font-weight: 400;
   max-height: 0;
   opacity: 0;
   background-color: rgba(246, 246, 246, 0.45);
@@ -52,4 +54,20 @@
   max-height: 0;
   opacity: 0;
   padding: 0;
+}
+
+@media (max-width: 768px) {
+  .collapse-container .collapse .collapse__toggle {
+    padding: 5px 10px 5px 10px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .collapse-container .collapse .collapse__icon {
+    width: 24px;
+    height: 24px;
+  }
+  .collapse-container .collapse .collapse__content {
+    font-size: 12px;
+    font-weight: 400;
+  }
 }/*# sourceMappingURL=Collapse.css.map */
