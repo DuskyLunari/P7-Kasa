@@ -10,4 +10,17 @@
   box-sizing: border-box;
   width: 100%;
   max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .thumbs {
+    border-radius: 0px;
+    background-color: unset;
+    padding: 0px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }/*# sourceMappingURL=Home.css.map */
