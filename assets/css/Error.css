@@ -24,4 +24,22 @@
   font-size: 18px;
   font-weight: 500;
   text-decoration-line: underline;
+}
+
+@media (max-width: 768px) {
+  .Error-container {
+    gap: 113px;
+    margin-top: 113px;
+    margin-bottom: 113px;
+  }
+  .Error-container__title {
+    height: 99px;
+    font-size: 96px;
+  }
+  .Error-container__text {
+    font-size: 18px;
+  }
+  .Error-container__link {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=Error.css.map */

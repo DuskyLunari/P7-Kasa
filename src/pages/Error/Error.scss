@@ -25,3 +25,21 @@
         text-decoration-line: underline;
     }
 }
+
+@media (max-width: 768px) {
+    .Error-container {
+        gap: 113px;
+        margin-top: 113px;
+        margin-bottom: 113px;
+        &__title {
+            height: 99px;
+            font-size: 96px;
+        }
+        &__text {
+            font-size: 18px;
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+}
