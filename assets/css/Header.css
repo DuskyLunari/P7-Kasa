@@ -11,6 +11,12 @@
   width: 210px;
   height: 68px;
 }
+.header__logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .header__nav {
   display: flex;
   justify-content: flex-end;
@@ -20,11 +26,10 @@
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 57px;
   margin: 0;
 }
 .header__nav li {
-  width: 136px;
   color: #000;
   text-align: right;
   font-family: Montserrat, sans-serif;
@@ -43,4 +48,27 @@
 .header__nav a.active {
   text-decoration: underline;
   color: unset;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__logo {
+    width: 145px;
+    height: 47px;
+  }
+  .header__nav ul {
+    gap: 26px;
+  }
+  .header__nav li {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .header__nav ul {
+    gap: 9px;
+  }
+  .header__nav li {
+    font-size: 12px;
+    font-weight: 500;
+  }
 }/*# sourceMappingURL=Header.css.map */
