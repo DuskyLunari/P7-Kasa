@@ -38,3 +38,11 @@
         margin: 0; 
     }
 }
+
+@media (max-width: 768px) {
+    .banner {
+        &__text {
+            font-size: 24px;
+        }
+    }
+}
