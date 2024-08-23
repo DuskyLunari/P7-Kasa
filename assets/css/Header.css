@@ -64,6 +64,9 @@
   }
 }
 @media only screen and (max-width: 400px) {
+  .header {
+    padding-bottom: 27px;
+  }
   .header__nav ul {
     gap: 9px;
   }
