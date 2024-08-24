@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Caroussel } from "../../components/Caroussel";
 import { Collapse } from "../../components/Collapse";
@@ -9,6 +9,7 @@ import "./Flat.scss";
 
 export function Logement() {
   const { logementId } = useParams();
+  const navigate = useNavigate();
   const [logement, setLogement] = useState(null);
 
   useEffect(() => {
@@ -21,12 +22,12 @@ export function Logement() {
       if (foundLogement) {
         setLogement(foundLogement);
       } else {
-        console.error("Logement non trouvé");
+        navigate("/logement-non-répertorié");
       }
     }
 
     fetchLogements();
-  }, [logementId]);
+  }, [logementId, navigate]);
 
   if (!logement) return <p>Chargement en cours...</p>;
 
