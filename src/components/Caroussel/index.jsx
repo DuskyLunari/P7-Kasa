@@ -17,20 +17,28 @@ export function Caroussel({ images }) {
         );
     };
 
+    const hasMultipleImages = images.length > 1;
+
     return (
         <div className="caroussel">
-            <button className="caroussel__arrow caroussel__arrow--left" onClick={handlePrev}>
-                <i className="fa-solid fa-chevron-left"></i>
-            </button>
+            {hasMultipleImages && (
+                <button className="caroussel__arrow caroussel__arrow--left" onClick={handlePrev}>
+                    <i className="fa-solid fa-chevron-left"></i>
+                </button>
+            )}
             <div className="caroussel__images">
                 <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
             </div>
-            <button className="caroussel__arrow caroussel__arrow--right" onClick={handleNext}>
-                <i className="fa-solid fa-chevron-right"></i>
-            </button>
-            <div className="caroussel__count">
-                {currentIndex + 1} / {images.length}
-            </div>
+            {hasMultipleImages && (
+                <button className="caroussel__arrow caroussel__arrow--right" onClick={handleNext}>
+                    <i className="fa-solid fa-chevron-right"></i>
+                </button>
+            )}
+            {hasMultipleImages && (
+                <div className="caroussel__count">
+                    {currentIndex + 1} / {images.length}
+                </div>
+            )}
         </div>
     );
 }
