@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import './Caroussel.scss';
 
 export function Caroussel({ images }) {
@@ -33,3 +34,7 @@ export function Caroussel({ images }) {
         </div>
     );
 }
+
+Caroussel.propTypes = {
+    images: PropTypes.arrayOf(PropTypes.string).isRequired,
+};
